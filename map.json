@@ -1,6 +1,6 @@
 {
     "map_name": "Northern Bukidnon State College",
-    "pin_image_url": "../bg.jpg",
+    "pin_image_url": "./bg.jpg",
 "map_id": "0001",
 "map_lat": 8.359997,
 "map_lng": 124.868352,
