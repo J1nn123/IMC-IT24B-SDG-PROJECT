@@ -1,9 +1,19 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto';
+  font-weight: 500;
+    font-style: normal;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+   
+   
 }
+
 
 .container {
     width: 90%;
@@ -13,7 +23,7 @@ body {
 
 header {
     background-color: #333;
-    color: #fff;
+    
     padding: 10px 0;
     text-align: center;
 }
@@ -54,73 +64,169 @@ p {
 }
 
 .member {
-    background-color: #fff;
+    background-color: #fefefe;
     padding: 20px;
-    margin: 10px;
+    margin: 40px;
     min-width: 200px;
     text-align: center;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 7px 10px 3px rgba(3, 3, 3, 0.2);
 }
+
 
 .member img {
     width: 100%;
     height: auto;
     border-radius: 50%;
-}
-
-footer {
+}footer {
     text-align: center;
     padding: 20px;
-    margin-top: 40px;
-    margin-left: .5rem;
-    margin-right: .5rem;
-    background-color: rgb(41, 41, 192);
-    color: #fff;
-}#header {
+    background: rgba(12, 12, 149, 0.3); 
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px);
+    color: #fff; 
+    margin-top: 1rem; 
+    margin: 0; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    position: relative; 
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+body {
+    margin: 0; 
+    padding: 0; 
+}
+#header {
     display: flex;
-    justify-content: space-between; 
     align-items: center;
-    padding: 0 1rem;
-    background: rgba(41, 41, 192, 0.5); 
-    backdrop-filter: blur(10px);      
-    -webkit-backdrop-filter: blur(10px); 
-    border: 1px solid rgba(255, 255, 255, 0.2); 
-    border-radius: 8px;            
+    padding-inline: 1rem;
+    background: rgba(12, 12, 149, 0.3);
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    height: 90px;
+    justify-content: space-between;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+
+    /* Sticky navbar styles */
+    position: sticky;
+    top: 0; /* Sticks the navbar to the top of the viewport */
+    z-index: 1000; /* Ensures the navbar stays above other elements */;
 }
 #navbar {
     display: flex;
     align-items: center;
     gap: 1rem; 
+    
 }
 
 #pages {
     display: flex;
     align-items: center;
     
+    
 }
 
 #pages img {
     width: 70px;
     height: auto;
+    display: block;
+    margin-bottom: 3rem;
+    
 }
 
 a {
     text-decoration: none;
-    color: white;
+    color:black;
     font-size: 1rem;
-    margin-left: 1rem;
+    align-items: center; /* Vertically aligns icon and text */
+    gap: 0.5rem; /* Adds space between the text and icon */
+    display: flex;
+    margin-top: 48px;
+  
 }
 
 
 #team{
     width: 100%;
+  
 }
 
 #teamMembers{
     display: flex;
     flex-direction: row;
-    width: inherit;
+    width: 200px;
+ margin-left: 700px;
     justify-content: center;
+}
+.members-nav{
+margin-left: 72rem;
+font-size: 80px;
+font-weight: bold;
+margin-bottom: 3rem;
+color: black;
+padding: 0;
+
+}
+.members-nav a{
+    color: rgb(29, 28, 28); /* Default color */
+    transition: color 0.2s ease; /* Smooth color transition */
+font-size: 21px;
+}
+.members-nav a:hover{
+    color: #fff;
+
+
+}
+.about {
+  
+margin-left: 73rem;
+align-items: center;
+display: inline block;
+margin-bottom: 3rem;
+
+}  
+.about a {
+font-size: 20px;
+color: rgb(29, 28, 28); /* Default color */
+transition: color 0.2s ease; /* Smooth color transition */
+}
+.about a:hover{
+    color: #fff;
+}
+/* Styling for each social icon */
+.socials li {
+    display: inline-block;
+    margin: 10px;
+    padding: 0;
+}
+
+/* Social icon styles */
+.socials i {
+    font-size: 40px; /* Size of the icons */
+    color: #333;  /* Default icon color */
+    transition: transform 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover effect: scale and change color */
+#fb i:hover {
+    transform: scale(1.2);  /* Slightly enlarge the icon */
+    color: #0078d4;  /* Color change on hover (blue for example) */
+}
+
+#ig i:hover {
+    transform: scale(1.2);  /* Slightly enlarge the icon */
+    color: #a33005;  /* Color change on hover (blue for example) */
+}
+#x i:hover {
+    transform: scale(1.2);  /* Slightly enlarge the icon */
+    color: #11171c;  /* Color change on hover (blue for example) */
+}
+/* Optional: Add some responsiveness */
+@media (max-width: 768px) {
+    .socials i {
+        font-size: 35px; /* Reduce icon size on smaller screens */
+    }
 }

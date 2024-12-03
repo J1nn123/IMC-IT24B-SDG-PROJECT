@@ -1,0 +1,104 @@
+{
+    "map_name": "Northern Bukidnon State College",
+    "pin_image_url": "../bg.jpg",
+"map_id": "0001",
+"map_lat": 8.359997,
+"map_lng": 124.868352,
+"map_polygon_vertices": [
+  [8.361465, 124.867623],
+  [8.358812, 124.867054],
+  [8.358302, 124.869071],
+  [8.361060, 124.869640]
+],
+"map_image_url": "../bg.jpg", 
+"map_pins": [
+  {
+    "pin_id": "0001",
+    "pin_name": "CCS Lab1",
+    "pin_lat":  8.359747, 
+    "pin_long":  124.869235,
+    "pin_num_pc": 32,
+    "pin_num_printers": 0,
+    "pin_image_url": "../css1.jpg",
+    "pin_is_reserved": false,
+    "pin_is_occupied": false,
+    "pin_polygon_vertices": [
+      [
+        8.359673, 124.869144],
+      [ 8.359662, 124.869235],
+      [8.359779, 124.869259],
+     [8.359789, 124.869154]
+    ]
+  },
+  {
+    "pin_id": "0002",
+    "pin_name": "CCS Lab2",
+    "pin_lat": 
+    8.359489,
+    "pin_long":  124.869144,
+    "pin_num_pc": 25,
+    "pin_num_printers": 0,
+    "pin_image_url": "../css2.jpg",
+    "pin_is_reserved": false,
+    "pin_is_occupied": false,
+    "pin_polygon_vertices": [
+      [8.359492, 124.869106],
+      [8.359479, 124.869195],
+      [8.359582, 124.869219],
+      [8.359638, 124.869136]
+    ]
+  },
+  {
+    "pin_id": "0003",
+    "pin_name": "NBSC Admin Building",
+    "pin_lat": 8.359306,
+    "pin_long": 124.867870,
+    "pin_num_pc": 16,
+    "pin_num_printers": 0,
+    "pin_image_url": "../sis.jpg",
+    "pin_is_reserved": false,
+    "pin_is_occupied": false,
+    "pin_polygon_vertices": [
+      [8.359253, 124.867578],
+      [8.359144, 124.868026],
+      [8.359327, 124.868085],
+      [8.359436, 124.867634]
+     
+    ]
+  },
+  {
+    "pin_id": "0004",
+    "pin_name": "DPS PRINTING SHOP",
+    "pin_lat": 8.359922,
+    "pin_long":  124.867387,
+    "pin_num_pc": 0,
+    "pin_num_printers": 1,
+    "pin_image_url": "../printer1.jpg",
+    "pin_is_reserved": false,
+    "pin_is_occupied": false,
+    "pin_polygon_vertices": [
+      [8.359882, 124.867306],
+      [8.359840, 124.867432],
+      [8.359943, 124.867467],
+      [8.359970, 124.867336]
+    ]
+  },
+  {
+    "pin_id": "0005",
+    "pin_name": "FRAMEME PRINTING SHOP",
+    "pin_lat":  8.360623,
+    "pin_long": 124.867580,
+    "pin_num_pc": 0,
+    "pin_num_printers": 1,
+    "pin_image_url": "../printer2.jpg",
+    "pin_is_reserved": false,
+    "pin_is_occupied": false,
+    "pin_polygon_vertices": [
+      [8.360585, 124.867502],
+      [8.360546, 124.867628],
+      [8.360665, 124.867663],
+      [8.360702, 124.867537]
+    ]
+  }
+]
+}
