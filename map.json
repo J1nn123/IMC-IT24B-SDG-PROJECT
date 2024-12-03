@@ -10,7 +10,7 @@
   [8.358302, 124.869071],
   [8.361060, 124.869640]
 ],
-"map_image_url": "../bg.jpg", 
+"map_image_url": "./bg.jpg", 
 "map_pins": [
   {
     "pin_id": "0001",
@@ -19,7 +19,7 @@
     "pin_long":  124.869235,
     "pin_num_pc": 32,
     "pin_num_printers": 0,
-    "pin_image_url": "../css1.jpg",
+    "pin_image_url": "./css1.jpg",
     "pin_is_reserved": false,
     "pin_is_occupied": false,
     "pin_polygon_vertices": [
@@ -38,7 +38,7 @@
     "pin_long":  124.869144,
     "pin_num_pc": 25,
     "pin_num_printers": 0,
-    "pin_image_url": "../css2.jpg",
+    "pin_image_url": "./css2.jpg",
     "pin_is_reserved": false,
     "pin_is_occupied": false,
     "pin_polygon_vertices": [
@@ -55,7 +55,7 @@
     "pin_long": 124.867870,
     "pin_num_pc": 16,
     "pin_num_printers": 0,
-    "pin_image_url": "../sis.jpg",
+    "pin_image_url": "./sis.jpg",
     "pin_is_reserved": false,
     "pin_is_occupied": false,
     "pin_polygon_vertices": [
@@ -73,7 +73,7 @@
     "pin_long":  124.867387,
     "pin_num_pc": 0,
     "pin_num_printers": 1,
-    "pin_image_url": "../printer1.jpg",
+    "pin_image_url": "./printer1.jpg",
     "pin_is_reserved": false,
     "pin_is_occupied": false,
     "pin_polygon_vertices": [
@@ -90,7 +90,7 @@
     "pin_long": 124.867580,
     "pin_num_pc": 0,
     "pin_num_printers": 1,
-    "pin_image_url": "../printer2.jpg",
+    "pin_image_url": "./printer2.jpg",
     "pin_is_reserved": false,
     "pin_is_occupied": false,
     "pin_polygon_vertices": [
