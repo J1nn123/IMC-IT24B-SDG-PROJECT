@@ -1,232 +1,273 @@
-
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-
-
+/* General Styling */
 body {
-    font-family: 'Roboto';
-  font-weight: 500;
+    font-family: Arial, sans-serif; /* Default fallback font */
+    font-weight: 500;
     font-style: normal;
     margin: 0;
     padding: 0;
-   
-   
-}
-
-
-.container {
-    width: 90%;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-header {
-    background-color: #333;
-    
-    padding: 10px 0;
+  }
+  
+  #team {
+    padding: 2rem;
     text-align: center;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 3.5em;
-}
-
-section {
-    margin: 40px 0;
-    border-bottom: 2px solid black;
-}
-
-#values > li{
-    font-size: 10px;
-}
-.About{
-margin-left: 76rem;
-
-}
-
-h2 {
-    font-size: 3em;
-    color: #333;
-}
-
-p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.5em;
-    color: #555;
-}
-
-.team {
+  }
+  
+  #teamMembers {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .member {
+    text-align: center;
+    width: 200px;
+  }
+  
+  .member-photo {
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin: 0 auto 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Specific Member Photos */
+  .member1 {
+    background-image: url('https://scontent.fmnl4-2.fna.fbcdn.net/v/t39.30808-6/468977219_558039963592913_2123514115178562381_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeGNC8v6jp4h5l4usLc9VRy4fuxCf5rgtU5-7EJ_muC1TsQwTGnc4XN6srMsPFxb-LlUZNWC-6FPTGpKrfmQfPyz&_nc_ohc=N74a2p5y4x0Q7kNvgGZwYOg&_nc_zt=23&_nc_ht=scontent.fmnl4-2.fna&_nc_gid=Aw-TEIxvrbb-98w_oev8TdF&oh=00_AYClOK0X4Y8kVdE9NhSLH-tYxx1kVDrsZ7zRBHxuruCzzw&oe=67542E44');
+  }
+  
+  .member2 {
+    background-image: url('https://scontent.fcgy2-3.fna.fbcdn.net/v/t39.30808-6/465400690_544427334992079_5472635448197508410_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeGaf3vHf0rLP1TlsitM8PYDosxU-Wt4oqmizFT5a3iiqS5SOlzFaESIMb-BM9UH0Ms9a7JTJuE_QiAwRD56DGw2&_nc_ohc=nI-BGVwEF1YQ7kNvgEuwuMo&_nc_zt=23&_nc_ht=scontent.fcgy2-3.fna&_nc_gid=A748xchO3GHgAEXDLlr5vg5&oh=00_AYBSlF0fRbw8neJDX3FoWp2kbVMVvGCC-sJmoT3LXMxw3g&oe=6754EEC6');
+  }
+  
+  .member3 {
+    background-image: url('https://scontent.fcgy2-2.fna.fbcdn.net/v/t39.30808-6/468556135_122128314632395824_8867390098186083109_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEIkQpv78dGOXw-PQykmjBmYkwQ5LCFExFiTBDksIUTEXprCqFK7sN5aucA-au0tRt9T7CxNiPSG1iiEp89svtK&_nc_ohc=nwnCFx2z6kQQ7kNvgHnvTdt&_nc_zt=23&_nc_ht=scontent.fcgy2-2.fna&_nc_gid=ANJmv8Kj82V-Tjvpb8G7v3Y&oh=00_AYBRY6d4i8dA-jDtaU-twiwg2Id8IdXOV3agQUU7O3rIHg&oe=6754EC49');
+  }
+  
+  /* Container Styling */
+  .container {
+      width: 90%;
+      margin: 0 auto;
+      padding: 20px;
+  }
+  
+  header {
+      background-color: #333;
+      padding: 10px 0;
+      text-align: center;
+  }
+  
+  header h1 {
+      margin: 0;
+      font-size: 3.5em;
+  }
+  
+  section {
+      margin: 40px 0;
+      border-bottom: 2px solid black;
+  }
+  
+  .About{
+    margin-left: 76rem;
+  }
+  
+  h2 {
+      font-size: 3em;
+      color: #333;
+  }
+  
+  p {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 1.5em;
+      color: #555;
+  }
+  
+  .team {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+  }
+  
+  .member {
+      background-color: #fefefe;
+      padding: 20px;
+      margin: 40px;
+      min-width: 200px;
+      text-align: center;
+      border-radius: 8px;
+      box-shadow: 0 7px 10px 3px rgba(3, 3, 3, 0.2);
+  }
+  
+  .member img {
+      width: 100%;
+      height: auto;
+      border-radius: 50%;
+  }
+  
+  footer {
+      text-align: center;
+      padding: 20px;
+      background: rgba(12, 12, 149, 0.3); 
+      backdrop-filter: blur(10px); 
+      -webkit-backdrop-filter: blur(10px);
+      color: #fff; 
+      margin-top: 1rem; 
+      margin: 0; 
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      position: relative; 
+      width: 100%; 
+      box-sizing: border-box; 
+  }
+  
+  #header {
+      display: flex;
+      align-items: center;
+      padding-inline: 1rem;
+      background: rgba(12, 12, 149, 0.3);
+      backdrop-filter: blur(10px); 
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      height: 90px;
+      justify-content: space-between;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  
+      /* Sticky navbar styles */
+      position: sticky;
+      top: 0; /* Sticks the navbar to the top of the viewport */
+      z-index: 1000; /* Ensures the navbar stays above other elements */
+  }
+  
+  #navbar {
+      display: flex;
+      align-items: center;
+      gap: 1rem; 
+  }
+  
+  #pages {
+      display: flex;
+      align-items: center;
+  }
+  
+  #pages img {
+      width: 70px;
+      height: auto;
+      display: block;
+      margin-bottom: 3rem;
+  }
+  
+  a {
+      text-decoration: none;
+      color:black;
+      font-size: 1rem;
+      align-items: center; /* Vertically aligns icon and text */
+      gap: 0.5rem; /* Adds space between the text and icon */
+      display: flex;
+      margin-top: 48px;
+  }
+  
+  #teamMembers {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping to new rows */
+    justify-content: center; /* Centers the items horizontally */
+    gap: 2rem;
 }
 
 .member {
-    background-color: #fefefe;
-    padding: 20px;
-    margin: 40px;
-    min-width: 200px;
     text-align: center;
-    border-radius: 8px;
-    box-shadow: 0 7px 10px 3px rgba(3, 3, 3, 0.2);
+    flex: 1 1 200px; /* Allows for flexible width with a minimum of 200px */
+    max-width: 250px; /* Prevents member from growing too large */
 }
 
-
-.member img {
-    width: 100%;
-    height: auto;
-    border-radius: 50%;
-}footer {
+#team {
+    padding: 2rem;
     text-align: center;
-    padding: 20px;
-    background: rgba(12, 12, 149, 0.3); 
-    backdrop-filter: blur(10px); 
-    -webkit-backdrop-filter: blur(10px);
-    color: #fff; 
-    margin-top: 1rem; 
-    margin: 0; 
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    position: relative; 
-    width: 100%; 
-    box-sizing: border-box; 
+    width: 100%; /* Ensure the width takes the full available space */
 }
-
-body {
-    margin: 0; 
-    padding: 0; 
-}
-#header {
-    display: flex;
-    align-items: center;
-    padding-inline: 1rem;
-    background: rgba(12, 12, 149, 0.3);
-    backdrop-filter: blur(10px); 
-    -webkit-backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    height: 90px;
-    justify-content: space-between;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-
-    /* Sticky navbar styles */
-    position: sticky;
-    top: 0; /* Sticks the navbar to the top of the viewport */
-    z-index: 1000; /* Ensures the navbar stays above other elements */;
-}
-#navbar {
-    display: flex;
-    align-items: center;
-    gap: 1rem; 
-    
-}
-
-#pages {
-    display: flex;
-    align-items: center;
-    
-    
-}
-
-#pages img {
-    width: 70px;
-    height: auto;
-    display: block;
+  .members-nav {
+    margin-left: 73rem;
+    font-size: 80px;
+    font-weight: bold;
     margin-bottom: 3rem;
-    
-}
-
-a {
-    text-decoration: none;
-    color:black;
-    font-size: 1rem;
-    align-items: center; /* Vertically aligns icon and text */
-    gap: 0.5rem; /* Adds space between the text and icon */
-    display: flex;
-    margin-top: 48px;
+    color: black;
+    padding: 0;
+    position: fixed;
+  }
   
-}
-
-
-#team{
-    width: 100%;
+  .members-nav a {
+      color: rgb(29, 28, 28); /* Default color */
+      transition: color 0.2s ease; /* Smooth color transition */
+      font-size: 21px;
+  }
   
-}
-
-#teamMembers{
-    display: flex;
-    flex-direction: row;
-    width: 200px;
- margin-left: 700px;
-    justify-content: center;
-}
-.members-nav{
-margin-left: 72rem;
-font-size: 80px;
-font-weight: bold;
-margin-bottom: 3rem;
-color: black;
-padding: 0;
-
-}
-.members-nav a{
+  .members-nav a:hover {
+      color: #fff;
+  }
+  
+  .about {
+    margin-left: 73rem;
+    align-items: center;
+    display: block;
+    position: fixed;
+    margin-bottom: 3rem;
+  }
+  
+  .about a {
+    font-size: 20px;
     color: rgb(29, 28, 28); /* Default color */
     transition: color 0.2s ease; /* Smooth color transition */
-font-size: 21px;
-}
-.members-nav a:hover{
-    color: #fff;
-
-
-}
-.about {
+  }
   
-margin-left: 73rem;
-align-items: center;
-display: inline block;
-margin-bottom: 3rem;
-
-}  
-.about a {
-font-size: 20px;
-color: rgb(29, 28, 28); /* Default color */
-transition: color 0.2s ease; /* Smooth color transition */
-}
-.about a:hover{
-    color: #fff;
-}
-/* Styling for each social icon */
-.socials li {
-    display: inline-block;
-    margin: 10px;
-    padding: 0;
-}
-
-/* Social icon styles */
-.socials i {
-    font-size: 40px; /* Size of the icons */
-    color: #333;  /* Default icon color */
-    transition: transform 0.3s ease, color 0.3s ease; /* Smooth hover effect */
-}
-
-/* Hover effect: scale and change color */
-#fb i:hover {
-    transform: scale(1.2);  /* Slightly enlarge the icon */
-    color: #0078d4;  /* Color change on hover (blue for example) */
-}
-
-#ig i:hover {
-    transform: scale(1.2);  /* Slightly enlarge the icon */
-    color: #a33005;  /* Color change on hover (blue for example) */
-}
-#x i:hover {
-    transform: scale(1.2);  /* Slightly enlarge the icon */
-    color: #11171c;  /* Color change on hover (blue for example) */
-}
-/* Optional: Add some responsiveness */
-@media (max-width: 768px) {
-    .socials i {
-        font-size: 35px; /* Reduce icon size on smaller screens */
-    }
-}
+  .about a:hover {
+      color: #fff;
+  }
+  
+  /* Styling for each social icon */
+  .socials li {
+      display: inline-block;
+      margin: 10px;
+      padding: 0;
+  }
+  
+  /* Social icon styles */
+  .socials i {
+      font-size: 40px; /* Size of the icons */
+      color: #333;  /* Default icon color */
+      transition: transform 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  /* Hover effect: scale and change color */
+  #fb i:hover {
+      transform: scale(1.2);  /* Slightly enlarge the icon */
+      color: #0078d4;  /* Color change on hover (blue for example) */
+  }
+  
+  #ig i:hover {
+      transform: scale(1.2);  /* Slightly enlarge the icon */
+      color: #a33005;  /* Color change on hover (blue for example) */
+  }
+  
+  #x i:hover {
+      transform: scale(1.2);  /* Slightly enlarge the icon */
+      color: #11171c;  /* Color change on hover (blue for example) */
+  }
+  
+  /* Optional: Add some responsiveness */
+  @media (max-width: 768px) {
+      .socials i {
+          font-size: 35px; /* Reduce icon size on smaller screens */
+      }
+  
+      .members-nav {
+          margin-left: 1rem; /* Adjust layout for smaller screens */
+          font-size: 1.5rem;
+      }
+  
+      #teamMembers {
+          width: 100%;
+          margin-left: 0;
+      }
+  }
